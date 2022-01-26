@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<rows>
+<row id="1">
+	<Name>Improved Fuel Efficiency</Name>
+	<Description>This gives you the Fuel Mizer and Galaxy Scoop engines and increases your starting Propulsion tech by 1 level. All engines use 15% less fuel.</Description>
+
+	<Cost>78</Cost>
+	
+	<Fuel_Consumption_bonus>85</Fuel_Consumption_bonus>
+	<Prp_extra>1</Prp_extra>
+	
+</row>
+
+<row id="2">
+	<Name>Total Terraforming</Name>
+	<Description>Allows you to terraform by investing solely in Biotechnology. You may terraform a variable up to 30%. Terraroming Costs 30% less.</Description>
+
+	<Cost>140</Cost>
+	
+	<!-- special items / modules / design restriction only -->
+	
+</row>
+
+<row id="3">
+	<Name>Advanced Remote Mining</Name>
+	<Description>Gives you three additional digging hulls and two new robots. You will start the game with two Midget-Diggers.</Description>
+
+	<Cost>53</Cost>
+	
+	<Ship6_tp>Midget-miner</Ship6_tp>
+	<Ship6_no>2</Ship6_no>
+	
+</row>
+
+<row id="4">
+	<Name>Improved Starbases</Name>
+	<Description>Gives you two new starbase designs. The stardock allows you to build light ships. The Ultra Station is a formidable weapons platform. Your starbases Cost 20% less and are 20% cloaked.</Description>
+
+	<Cost>67</Cost>
+	
+	<Starbase_Cost_bonus>80</Starbase_Cost_bonus>
+	<Cloak_Starbase_extra>40</Cloak_Starbase_extra>
+	
+</row>
+
+<row id="5">
+	<Name>Generalized Research</Name>
+	<Description>Your race takes a holistic  approach to research. Only half of the resources dedicated to research will be applied to he current fields of research; however, 15% of the total will be applied to all other fields.</Description>
+
+	<Cost>-13</Cost>
+	
+	<Res_Tech>50</Res_Tech>
+	<Res_Others>65</Res_Others>
+	
+</row>
+
+<row id="6">
+	<Name>Ultimate Recycling</Name>
+	<Description>When you scrap a fleet at a starbase, you recover 90% of the minerals and some of the resources. The resources are available for use the next year. Scrapping at a planet gives you half the starbase amount.</Description>
+
+	<Cost>80</Cost>
+	
+		<Scrap_R_Base>90</Scrap_R_Base>
+		<Scrap_M_Base>70</Scrap_M_Base>
+		<Scrap_R>35</Scrap_R>
+		<Scrap_M>45</Scrap_M>
+	
+</row>
+
+<row id="7">
+	<Name>Mineral Alchemy</Name>
+	<Description>Allows you to turn resources into minerals four times more efficiently than other races. This may be performed at any planet you own.</Description>
+
+	<Cost>52</Cost>
+	
+	<Mineral_Alchemy>25</Mineral_Alchemy>
+	
+</row>
+
+<row id="8">
+	<Name>No Ram Scoop Engines</Name>
+	<Description>No engines which travel at Warp 5 or greater burning no fuel will be available. However, the Interspace-10 engine will be available. This drive travels at Warp 10 without taking damage.</Description>
+
+	<Cost>-53</Cost>
+		
+	<!-- special items / modules / design restriction only -->
+		
+</row>
+
+<row id="9">
+<Name>Cheap Engines</Name>
+	<Description>You can throw engines together at half Cost; however, at speeds in excess of Warp 6, there is a 10% chance the engines won't engage. You start with Propulsion one level higher than you would otherwise.</Description>
+
+	<Cost>-79</Cost>
+	
+	<Engine_Cost_bonus>50</Engine_Cost_bonus>
+	<Critical_Engine>10</Critical_Engine>
+	<Critical_Warp>6</Critical_Warp>
+	
+</row>
+
+<row id="10">
+	<Name>Only Basic Remote Mining</Name>
+	<Description>The only mining ship available to you will be Mini-Digger. This trait overrides 'Advanced Remote Mining'. Your maximum population per planet is increased by 10%.</Description>
+
+	<Cost>-84</Cost>
+	
+	<!-- special items / modules / design restriction only -->
+	
+</row>
+
+<row id="11">
+	<Name>No Advanced Scanners</Name>
+	<Description>No planet penetrating scanners will be available to you. However, conventional scanners will have their range doubled.</Description>
+
+	<Cost>-108</Cost>
+	
+	<N_Scan_bonus>200</N_Scan_bonus>
+	
+</row>
+
+<row id="12">
+	<Name>Low Starting Population</Name>
+	<Description>You will start with 30% fewer colonists.</Description>
+	
+	<Cost>-59</Cost>
+	
+	<Pop_Start_bonus>70</Pop_Start_bonus>
+
+	
+</row>
+
+<row id="13">
+	<Name>Bleeding Edge Technology</Name>
+	<Description>New techs initially Cost twice as much to build. As soon you exceed all of the tech requirements by one level, the Cost drops back to normal. Miniaturization occurs at 5% a level and pegs at 80%</Description>
+
+	<Cost>-23</Cost>
+	
+	<Item_This_Level>200</Item_This_Level>
+	<Item_Below_Level>100</Item_Below_Level>
+	<Miniaturization>5</Miniaturization>
+	
+</row>
+
+<row id="14">
+	<Name>Regenerating Shields</Name>
+	<Description>All shields are 40% stronger than the listed rating. Shields regenerate 10% of maximum strength after every round of battle. However, your armor will only be 50% of its rated strength.</Description>
+
+	<Cost>-9</Cost>
+	
+	<Armor_Power>50</Armor_Power>
+	<Shield_Power>140</Shield_Power>
+	<Shield_Regen_bonus>10</Shield_Regen_bonus>
+	
+</row>
+</rows>
