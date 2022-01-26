@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @PLAndrev
-- 👀 I’m interested in simple games
-- 🌱 I’m currently learning C#
+- 👀 I’m interested in old game Stars! (1996)
+- 🌱 I’m currently learning C# to create this game live again and mdo them easy moddable.
 - 💞️ I’m looking to collaborate on code
 - 📫 How to reach me: github
 
