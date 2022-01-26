@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<root>
+
+	<Name>Stars! Ressurection</Name>
+	<Description>Version based at Stars! game with few improvements like all range-3 weapons and little "monster" races balance.</Description>
+	<Ver>1.00</Ver>
+
+	<!-- game settings -->
+	<Max_Pop>100</Max_Pop>
+
+	<Tech_Lvl_Cost>50</Tech_Lvl_Cost>
+
+	<Exp_Cost>175</Exp_Cost>
+	<Chp_Cost>50</Chp_Cost>
+
+	<!-- race predefinitions / moddable here only -->
+	<Surf_Pts_Left>1</Surf_Pts_Left>
+	<Conc_Pts_Left>30</Conc_Pts_Left>
+	<Mine_Pts_Left>20</Mine_Pts_Left>
+	<Fab_Pts_Left>50</Fab_Pts_Left>
+	<Def_Pts_Left>50</Def_Pts_Left>
+	
+	<Tech3>3</Tech3>
+
+	<!-- starting technologies -->
+	<Con>0</Con>
+	<Wep>0</Wep>
+	<Ene>0</Ene>
+	<Ele>0</Ele>
+	<Prp>0</Prp>
+	<Bio>0</Bio>
+	
+	<!-- starting technologies extra -->
+	<!-- extra only at PRT & LRT --> 
+	<Con_extra>0</Con_extra>
+	<Wep_extra>0</Wep_extra>
+	<Ene_extra>0</Ene_extra>
+	<Ele_extra>0</Ele_extra>
+	<Prp_extra>0</Prp_extra>
+	<Bio_extra>0</Bio_extra>
+	
+	<!-- technologies Costs -->
+	<!-- 100 = 100% -->
+	<!-- bonus only at PRT & LRT --> 
+	<Armor_Cost_bonus>100</Armor_Cost_bonus>
+	<Beam_Cost_bonus>100</Beam_Cost_bonus>	
+	<Bomb_Cost_bonus>100</Bomb_Cost_bonus>
+	<Digger_Cost_bonus>100</Digger_Cost_bonus>
+	<Electric_Cost_bonus>100</Electric_Cost_bonus>
+	<Engine_Cost_bonus>100</Engine_Cost_bonus>
+	<Mechanic_Cost_bonus>100</Mechanic_Cost_bonus>
+	<Mine_Cost_bonus>100</Mine_Cost_bonus>
+	<Stargates_Cost_bonus>100</Stargates_Cost_bonus>
+	<Accelerator_Cost_bonus>100</Accelerator_Cost_bonus>
+	<Defences_Cost_bonus>100</Defences_Cost_bonus>
+	<Planetscan_Cost_bonus>100</Planetscan_Cost_bonus>
+	<Scanner_Cost_bonus>100</Scanner_Cost_bonus>
+	<Shield_Cost_bonus>100</Shield_Cost_bonus>
+	<Ship_Cost_bonus>100</Ship_Cost_bonus>
+	<Starbases_Cost_bonus>100</Starbases_Cost_bonus>
+	<Terraform_Cost_bonus>100</Terraform_Cost_bonus>
+	<Torpedo_Cost_bonus>100</Torpedo_Cost_bonus>
+	
+	<!-- Costs of all items of current level of technology -->
+	<Item_This_Level>100</Item_This_Level>
+	<!-- Costs of all items at level below current level of technology -->
+	<Item_Below_Level>100</Item_Below_Level>
+	<!-- Live on starbases , no planetary production -->
+	<Alternate_Reality>0</Alternate_Reality>
+	
+	<!-- Chance is activated when engine consumes more than x fuel -->
+	<Critical_Fuel>0</Critical_Fuel>
+	<!-- Chance is activated when engine is faster than x warp -->
+	<Critical_Warp>0</Critical_Warp>
+	<!-- Chance for no-activation of engine = 0 -->
+	<Critical_Engine>0</Critical_Engine>
+
+	<!-- Bonus for ground attack of colonists  -->
+	<Colony_Attack_bonus>100</Colony_Attack_bonus>
+	<!-- Bonus for defence during ground attack of colonists -->
+	<Colony_Defence_bonus>100</Colony_Defence_bonus>
+
+	<!-- Change the fuel consumption by fleet -->
+	<Fuel_Consumption>100</Fuel_Consumption>
+
+	<!-- Ability to jump cargo through stargates (1/0) -->
+	<Gatejump_Cargo>0</Gatejump_Cargo>
+	<!-- Ability to exceed stargates limit with no lose ship (1/0) -->
+	<Gatejump_Overload>0</Gatejump_Overload>
+	<!-- Ability to jump colonists through stargates (1/0) -->
+	<Gatejump_Colony>0</Gatejump_Colony>
+	
+	<!-- Population growth acc. to selected at race wizard -->
+	<Grow_Colony_Ground_bonus>100</Grow_Colony_Ground_bonus>
+	<!-- Population growth at space -->
+	<Grow_Colony_Space_bonus>100</Grow_Colony_Space_bonus>
+
+	<!-- Bonus of regeneration shield power at battle -->
+	<Shield_Regen_bonus>100</Shield_Regen_bonus>
+
+	<!-- Declares number of killed colonists at space travel -->
+	<Kill_Colony_Space_bonus>100</Kill_Colony_Space_bonus>
+
+	<!-- Ability to know ship design when enemy ship hits at owner minefield (1/0) -->
+	<Know_Design_Minehit>0</Know_Design_Minehit>
+	<!-- Ability to know ship / spacebase design when enemy ship is scanned by owner (1/0) -->
+	<Know_Design_NScan>0</Know_Design_NScan>
+	<!-- Ability to know where all packets are and where they go (1/0) -->
+	<Know_Packets_Loc>0</Know_Packets_Loc>
+	<!-- Ability to know planet environment statistics when stargate at range (1/0) -->
+	<Know_Planets_Gate>0</Know_Planets_Gate>
+	<!-- Ability to know starbase design when packet is caught (1/0) -->
+	<Know_Base_Packet>0</Know_Base_Packet>
+
+	<!-- Ability to use mines as scanner (0/1) -->
+	<Mine_Scan>0</Mine_Scan>
+	<!-- Ability to lay minefield during space travel (0/1) -->
+	<Lay_Mine_Travel>0</Lay_Mine_Travel>
+	<!-- Declares decay of minefield at planet -->
+	<Mine_Planet>4</Mine_Planet>
+	<!-- Ability to explode mienfields (0/1) -->
+	<Mine_Explode>0</Mine_Explode>
+	<!-- Mineral alchemy level (x res into minerals)  -->
+	<Mineral_Alchemy>100</Mineral_Alchemy>
+	<!-- Update mineral alchemy level -->
+	<Mineral_Alchemy_bonus>100</Mineral_Alchemy_bonus>
+	<!-- Declare miniarurization level -->
+	<Miniaturization>4</Miniaturization>
+
+	<!-- Bonus to range of non penetrating scanners -->
+	<N_Scan_bonus>100</N_Scan_bonus>
+	<!-- Bonus to range of penetrating scanners -->
+	<P_Scan_bonus>100</P_Scan_bonus>
+
+	<!-- Declares how many materials may be caught safety -->
+	<Packet_Catch>100</Packet_Catch>
+	<!-- Chance to change the environment by hit packet -->
+	<Packet_Hit_Pla>0</Packet_Hit_Pla>
+	<!-- Update the chance to change the environment by hit packet -->
+	<Packet_Hit_Val>0</Packet_Hit_Val>
+	<!-- Chance to change the environment by hit packet but not caught -->
+	<!-- attention: value divided by 1000, not by 100 -->
+	<Packet_Unhit_Pla>0</Packet_Unhit_Pla>
+	<!-- Update chance to change the environment by hit packet but not caught -->
+	<PPacket_Unhit_Val>0</PPacket_Unhit_Val>
+	<!-- How big packet to make a chance to update environment -->
+	<Packet_Unhit_Mass>0</Packet_Unhit_Mass>
+	<!-- Minimal packet weight -->
+	<Packet_Cost_M>50</Packet_Cost_M>
+	<!-- Minimal packet Cost -->
+	<Packet_Cost_R>100</Packet_Cost_R>
+	<!-- Decay of packet at base accelerator warp -->
+	<Packet_W0>0</Packet_W0>
+	<!-- Decay of packet at accelerator warp+1 -->
+	<Packet_W1>10</Packet_W1>
+	<!-- Decay of packet at accelerator warp+2 -->
+	<Packet_W2>20</Packet_W2>
+	<!-- Decay of packet at accelerator warp+3 -->
+	<Packet_W3>50</Packet_W3>
+	<!-- Minimal decay of packets (kT) -->
+	<Packet_Min>10</Packet_Min>
+	<!-- Ability to use packets as penetrating scanners (1/0) -->
+	<Packet_Scan>0</Packet_Scan>
+	<!-- Update the nominal value of damages by packet -->
+	<Packet_Dmg>100</Packet_Dmg>
+
+	<!-- Penscan in-build at ship class X -->
+	<Penscan_1>0</Penscan_1>
+	<!-- Penscan in-build at ship class X -->
+	<Penscan_2>0</Penscan_2>
+	<!-- Penscan in-build at ship class X -->
+	<Penscan_3>0</Penscan_3>
+	<!-- Updated maximal population at 100% planet by % -->
+	<Max_Pop>100</Max_Pop>
+	
+	<!-- Updated maximal population at 100% planet by % for all techs at same level -->
+	<Max_Pop_techs>100</Max_Pop_techs>
+
+	<Planets_Start_start>1</Planets_Start_start>
+	
+	<!-- Population available at start -->
+	<Pop_Start>100</Pop_Start>
+	<!-- Updates available population at start -->
+	<Pop_Start_bonus>100</Pop_Start_bonus>
+
+	<!-- Number of materials recovered by scrapping -->
+	<Scrap_M>20</Scrap_M>
+	<!-- Number of materials recovered by scrapping at starbase -->
+	<Scrap_M_Base>20</Scrap_M_Base>
+	<!-- Number of resources recovered by scrapping -->
+	<Scrap_R>5</Scrap_R>
+	<!-- Number of resources recovered by scrapping at starbase -->
+	<Scrap_R_Base>5</Scrap_R_Base>
+	
+	<!-- Declares how many res is spend to researched field -->
+	<Res_Tech>100</Res_Tech>
+	<!-- Declares how many res is spend to not researched fields -->
+	<Res_Others>0</Res_Others>
+
+	<!-- Extra bonus to safe travel through minefield -->
+	<Mine_Speed>0</Mine_Speed>
+	<!-- Ship cloaking points (units/kT) -->
+	<Cloak_Ship_extra>0</Cloak_Ship_extra>
+	
+	<!-- Number and class of ships given at start -->
+	<Ship1_tp>0</Ship1_tp>
+	<Ship1_no>0</Ship1_no>
+	<Ship2_tp>0</Ship2_tp>
+	<Ship2_no>0</Ship2_no>
+	<Ship3_tp>0</Ship3_tp>
+	<Ship3_no>0</Ship3_no>
+	<Ship4_tp>0</Ship4_tp>
+	<Ship4_no>0</Ship4_no>
+	<Ship5_tp>0</Ship5_tp>
+	<Ship5_no>0</Ship5_no>
+	<Ship6_tp>0</Ship6_tp>
+	<Ship6_no>0</Ship6_no>
+	
+	<!-- Bonus to speed during battle -->
+	<Speed_Battle_extra>0</Speed_Battle_extra>
+	<!-- Bonus to reserach as X % of average tech researching by all races  -->
+	<Spy_Reserach>0</Spy_Reserach>
+	<!-- Starbase cloaking points (units/kT) -->
+	<Cloak_Starbase_extra>0</Cloak_Starbase_extra>
+
+	<!-- Extra level to all techs when checkbox is clicked at race wizzard -->
+	<Tech3_extra>0</Tech3_extra>
+	<!-- Ability terraform for free (0/1) -->
+	<Terraform_Free>0</Terraform_Free>
+	
+</root>
